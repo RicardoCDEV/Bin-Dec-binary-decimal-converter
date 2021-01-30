@@ -1,0 +1,48 @@
+main{
+    background-color: #C2D6F0;
+    min-height: 500px;
+}
+
+div.main{
+    margin-top: 0;
+}
+
+fieldset{
+    border-color: #007AF5;
+}
+
+#input-1{
+    display: inline-block;
+}
+
+#button-1{
+    display: inline-block;
+}
+
+.conversion-result-1{
+    display: inline-block;
+}
+
+#input-2{
+    display: inline-block;
+}
+
+#button-2{
+    display: inline-block;
+}
+
+.conversion-result-2{
+    display: inline-block;
+}
+
+.error{
+    border: solid #c11919 1px;
+    background-color: #ff8b8b;
+}
+
+/*Dispositivo Movil por anchura*/
+@media(max-width: 740px){
+    .principal-page-title{
+        margin-top: 70px;
+    }
+}

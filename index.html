@@ -1,0 +1,61 @@
+<!DOCTYPE html><!--Autor: https://github.com/RicardoCDEV-->
+<html>
+    <head>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <!--Autor: https://github.com/RicardoCDEV-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bic-Dec es un conversor online gratuito que te permite convertir un número en representacion decimal entero a un número en representación binaria entero y viceversa.">
+        <title>Bic-Dec, conversor binario entero <-> decimal entero</title>
+        <!--Estilos-->
+		<link rel="shortcut icon" href="img/Bin-Dec logo.png">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <input type="button" id="navbar-button">
+            <label for="navbar-button" class="navbar-button-label"></label>
+            <img src="img/Bin-Dec logo.png" alt="Bin-Dec logo" class="logo">
+            <nav>
+                <ul class="navbar-list">
+                    <a href="#" class="navbar-list-item"><li>Conversión</li></a>
+                    <a href="#" class="navbar-list-item"><li>Sobre el proyecto</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main container">
+                <h1 class="principal-page-title">Conversión decimal - binario</h1>
+                <form id="conversion-form">
+                    <fieldset class="container">
+                        <legend>Conversión de binario entero a decimal:</legend>
+                        <input type="number" id="input-1" class="container">
+                        <input type="button" id="button-1" value="Convertir" class="container">
+                        <div class="conversion-result-1 container">
+                            <p  class="conversion-result-1-text">Resultado</p>
+                        </div>
+                    </fieldset>
+                    <fieldset class="container">
+                        <legend>Conversión de decimal entero a binario:</legend>
+                        <input type="number" id="input-2" class="container">
+                        <input type="button" id="button-2" value="Convertir" class="container">
+                        <div class="conversion-result-2 container">
+                            <p  class="conversion-result-2-text">Resultado</p>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <ul class="footer-links container">
+                <a href="#" class="footer-link"><li>Sobre el Proyecto</li></a>
+                <a href="https://github.com/RicardoCDEV" class="footer-link"><li>Mi perfil de GitHub</li></a>
+            </ul>
+        </footer>
+
+        <!-- INICIO DE SCRIPTS -->
+            <script src="js/bin-to-dec.js"></script>
+            <script src="js/dec-to-bin.js"></script>
+        <!-- FIN DE SCRIPTS -->
+    </body>
+</html>

@@ -1,0 +1,16 @@
+footer{
+    border-top: solid #007AF5 3px;
+
+    height: 40px;
+}
+
+.footer-links{
+    height: 100%;
+    list-style: none;
+}
+
+.footer-link{
+    text-decoration: none;
+    color:  #007AF5;
+    margin: 1px;
+}

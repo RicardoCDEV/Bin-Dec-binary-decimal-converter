@@ -1,0 +1,22 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #C2D6F0;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    margin: 16px;
+    padding: 15px;
+}
+/*--Autor: https://github.com/RicardoCDEV-->*/
