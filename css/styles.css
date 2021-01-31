@@ -20,3 +20,10 @@ body{
     padding: 15px;
 }
 /*--Autor: https://github.com/RicardoCDEV-->*/
+
+/*Dispositivo Movil por anchura*/
+@media(max-width: 350px){
+    body{
+        overflow: scroll;
+    }
+}

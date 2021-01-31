@@ -6,9 +6,14 @@ header{
     height: 70px;
 }
 
+#navbar-button{
+    display: none;
+}
+
 .logo{
     width: 60px;
     margin-top: 5px;
+    margin-left: 5px;
 }
 
 nav{
@@ -38,10 +43,23 @@ nav{
 /*-----------------Responsive-----------------*/
 
 /*Dispositivo Movil por anchura*/
-@media(max-width: 740px){
+@media(max-width: 350px){
+    .navbar-list-item{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
     .logo{
         width: 60px;
-        margin-top: -15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media(min-width: 351px) and (max-width: 740px){
+    .logo{
+        width: 60px;
         margin-left: auto;
         margin-right: auto;
         display: block;
